@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f9;
+  color: #17212b;
+}
+
+header {
+  background: #111827;
+  color: white;
+  padding: 22px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 5px 0 0;
+  color: #b8c2cc;
+}
+
+.live-badge {
+  background: #dc2626;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.top-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.panel {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+#glacier-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.small {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.risk-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.risk {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.normal {
+  color: #16a34a;
+}
+
+.watch {
+  color: #d97706;
+}
+
+.warning {
+  color: #ea580c;
+}
+
+.critical {
+  color: #dc2626;
+}
+
+.confidence {
+  margin-top: 20px;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.metric-card span {
+  display: block;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.metric-card strong {
+  font-size: 24px;
+}
+
+.gemini-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gemini-title span {
+  background: #e0e7ff;
+  color: #4338ca;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.signal {
+  background: #f3f4f6;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.status-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.status-ok {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+  .top-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minutes Matter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Minutes Matter</h1>
+      <p>AI-assisted environmental early warning</p>
+    </div>
+
+    <div class="live-badge">
+      ● LIVE
+    </div>
+  </header>
+
+  <main>
+
+    <section class="top-grid">
+
+      <div class="panel">
+        <h2>Live Glacier Feed</h2>
+
+        <img
+          id="glacier-image"
+          src="https://www.foto-webcam.eu/webcam/hintereisferner1/current/720.jpg"
+          alt="Live glacier webcam"
+        />
+
+        <p class="small">
+          Hintereisferner Glacier, Austrian Alps
+        </p>
+      </div>
+
+      <div class="panel risk-panel">
+
+        <p class="label">CURRENT RISK</p>
+
+        <div id="risk-level" class="risk watch">
+          WATCH
+        </div>
+
+        <p id="risk-reason">
+          Monitoring environmental conditions...
+        </p>
+
+        <div class="confidence">
+          Confidence:
+          <strong id="confidence">--</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="metrics">
+
+      <div class="metric-card">
+        <span>Temperature</span>
+        <strong id="temperature">--</strong>
+      </div>
+
+      <div class="metric-card">
+        <span>Precipitation</span>
+        <strong id="precipitation">--</strong>
+      </div>
+
+      <div class="metric-card">
+        <span>Wind</span>
+        <strong id="wind">--</strong>
+      </div>
+
+      <div class="metric-card">
+        <span>Seismic Events</span>
+        <strong id="earthquakes">--</strong>
+      </div>
+
+    </section>
+
+
+    <section class="panel gemini-panel">
+
+      <div class="gemini-title">
+        <h2>Gemini Assessment</h2>
+        <span>AI Analysis</span>
+      </div>
+
+      <p id="gemini-assessment">
+        Waiting for environmental observations...
+      </p>
+
+      <div id="signals">
+      </div>
+
+    </section>
+
+
+    <section class="panel">
+
+      <h2>System Status</h2>
+
+      <div class="status-row">
+        <span>Weather Data</span>
+        <span class="status-ok">Connected</span>
+      </div>
+
+      <div class="status-row">
+        <span>Seismic Data</span>
+        <span class="status-ok">Connected</span>
+      </div>
+
+      <div class="status-row">
+        <span>Glacier Camera</span>
+        <span class="status-ok">Connected</span>
+      </div>
+
+      <div class="status-row">
+        <span>Gemini</span>
+        <span class="status-ok">Connected</span>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
