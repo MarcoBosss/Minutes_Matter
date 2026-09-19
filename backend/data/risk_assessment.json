@@ -1,0 +1,30 @@
+{
+  "observations": {
+    "weather": {
+      "time": "2026-09-19T16:00",
+      "temperature_c": 18.0,
+      "precipitation_mm": 0.5,
+      "rain_mm": 0.0,
+      "snowfall_cm": 0.0,
+      "wind_speed_kmh": 0.6,
+      "wind_gusts_kmh": 23.0
+    },
+    "seismic": {
+      "event_count": 0,
+      "max_magnitude": null,
+      "events": []
+    },
+    "river": {}
+  },
+  "gemini": {
+    "risk_level": "NORMAL",
+    "confidence": 75,
+    "reasoning": "Available observations for the target location show benign weather with minimal precipitation (0.5 mm), light winds, and no detected seismic activity. While local hydrological and satellite precipitation data are currently unavailable, no active hazard indicators are present. The provided glacier webcam is situated in the Austrian Alps, geographically distant from the target coordinates in Nepal, and therefore cannot be used as direct evidence for local conditions.",
+    "signals": [
+      "Target weather shows negligible precipitation (0.5 mm) and calm winds",
+      "Zero seismic events detected by USGS",
+      "Webcam data is geographically mismatched (Austrian Alps vs. Nepal coordinates) and excluded from direct assessment",
+      "River and flood monitoring feeds (Nepal DHM, GloFAS) are unavailable or skipped"
+    ]
+  }
+}

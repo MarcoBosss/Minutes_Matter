@@ -1,6 +1,0 @@
-.env
-__pycache__/
-*.pyc
-environment_state.json
-
-images/*.jpg
