@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-19T16:00:23.465368Z",
+  "generated_at": "2026-09-19T18:10:02.885448Z",
   "target": {
     "latitude": 28.2774,
     "longitude": 85.3777
@@ -9,7 +9,7 @@
     "open_meteo": {
       "source": "open_meteo",
       "status": "ok",
-      "retrieved_at": "2026-09-19T16:00:14.505116Z",
+      "retrieved_at": "2026-09-19T18:09:57.653064Z",
       "data": {
         "latitude": 28.295254,
         "longitude": 85.408165,
@@ -27,15 +27,15 @@
           "wind_gusts_10m": "km/h"
         },
         "current": {
-          "time": "2026-09-19T16:00",
+          "time": "2026-09-19T18:00",
           "interval": 900,
-          "temperature_2m": 18.0,
-          "precipitation": 0.5,
+          "temperature_2m": 17.4,
+          "precipitation": 0.6,
           "rain": 0.0,
           "snowfall": 0.0,
           "weather_code": 80,
-          "wind_speed_10m": 0.6,
-          "wind_gusts_10m": 23.0
+          "wind_speed_10m": 0.0,
+          "wind_gusts_10m": 17.6
         },
         "hourly_units": {
           "time": "iso8601",
@@ -49,8 +49,6 @@
         },
         "hourly_48h_window": {
           "time": [
-            "2026-09-18T17:00",
-            "2026-09-18T18:00",
             "2026-09-18T19:00",
             "2026-09-18T20:00",
             "2026-09-18T21:00",
@@ -96,11 +94,11 @@
             "2026-09-20T13:00",
             "2026-09-20T14:00",
             "2026-09-20T15:00",
-            "2026-09-20T16:00"
+            "2026-09-20T16:00",
+            "2026-09-20T17:00",
+            "2026-09-20T18:00"
           ],
           "precipitation": [
-            0.0,
-            0.0,
             0.0,
             0.0,
             0.0,
@@ -146,11 +144,11 @@
             0.2,
             0.2,
             0.4,
-            3.0
+            3.0,
+            0.7,
+            0.1
           ],
           "rain": [
-            0.0,
-            0.0,
             0.0,
             0.0,
             0.0,
@@ -196,7 +194,9 @@
             0.1,
             0.1,
             0.0,
-            0.1
+            0.1,
+            0.4,
+            0.0
           ],
           "snowfall": [
             0.0,
@@ -249,8 +249,6 @@
             0.0
           ],
           "soil_moisture_0_to_1cm": [
-            0.308,
-            0.307,
             0.306,
             0.306,
             0.305,
@@ -296,11 +294,11 @@
             0.312,
             0.31,
             0.309,
-            0.307
+            0.307,
+            0.305,
+            0.304
           ],
           "soil_moisture_1_to_3cm": [
-            0.31,
-            0.309,
             0.308,
             0.308,
             0.307,
@@ -346,11 +344,11 @@
             0.314,
             0.312,
             0.31,
-            0.309
+            0.309,
+            0.307,
+            0.306
           ],
           "freezing_level_height": [
-            5060.0,
-            4960.0,
             4980.0,
             4960.0,
             4930.0,
@@ -396,11 +394,11 @@
             5060.0,
             5040.0,
             5060.0,
-            5150.0
+            5150.0,
+            5150.0,
+            5130.0
           ],
           "temperature_2m": [
-            19.0,
-            19.4,
             18.4,
             18.8,
             18.8,
@@ -446,7 +444,9 @@
             19.8,
             19.6,
             18.9,
-            18.7
+            18.7,
+            18.6,
+            18.8
           ]
         }
       }
@@ -454,7 +454,7 @@
     "usgs_earthquakes": {
       "source": "usgs_earthquakes",
       "status": "ok",
-      "retrieved_at": "2026-09-19T16:00:14.617137Z",
+      "retrieved_at": "2026-09-19T18:09:57.813373Z",
       "data": {
         "radius_km": 250.0,
         "lookback_hours": 72,
@@ -466,28 +466,28 @@
     "nepal_dhm": {
       "source": "nepal_dhm",
       "status": "unavailable",
-      "retrieved_at": "2026-09-19T16:00:22.724520Z",
+      "retrieved_at": "2026-09-19T18:10:02.013194Z",
       "error": "500 Server Error: Internal Server Error for url: https://dhm.gov.np/hydrology/realtime-stream",
       "data": null
     },
     "copernicus_glofas": {
       "source": "copernicus_glofas",
       "status": "skipped",
-      "retrieved_at": "2026-09-19T16:00:22.726752Z",
+      "retrieved_at": "2026-09-19T18:10:02.013880Z",
       "error": "Skipped",
       "data": null
     },
     "nasa_imerg": {
       "source": "nasa_imerg",
       "status": "skipped",
-      "retrieved_at": "2026-09-19T16:00:22.726784Z",
+      "retrieved_at": "2026-09-19T18:10:02.013887Z",
       "error": "Skipped",
       "data": null
     },
     "foto_webcam_glacier": {
       "source": "foto_webcam_glacier",
       "status": "ok",
-      "retrieved_at": "2026-09-19T16:00:23.464644Z",
+      "retrieved_at": "2026-09-19T18:10:02.883645Z",
       "data": {
         "camera_id": "hintereisferner1",
         "camera_name": "Hintereisferner 1",
@@ -500,11 +500,11 @@
         "webcam_page": "https://www.foto-webcam.eu/webcam/hintereisferner1/",
         "image_url": "https://www.foto-webcam.eu/webcam/hintereisferner1/current/720.jpg",
         "width_px": 720,
-        "downloaded_at": "2026-09-19T16:00:23.464625Z",
-        "http_last_modified": "Sat, 19 Sep 2026 16:00:01 GMT",
-        "timestamped_image_path": "images/hintereisferner1_20260919T160023Z.jpg",
-        "latest_image_path": "images/hintereisferner1_latest.jpg",
-        "bytes": 139342,
+        "downloaded_at": "2026-09-19T18:10:02.883596Z",
+        "http_last_modified": "Sat, 19 Sep 2026 18:00:27 GMT",
+        "timestamped_image_path": "backend/data_collector/images/hintereisferner1_20260919T181002Z.jpg",
+        "latest_image_path": "backend/data_collector/images/hintereisferner1_latest.jpg",
+        "bytes": 94493,
         "content_type": "image/jpeg",
         "attribution": "www.foto-webcam.eu",
         "important_note": "This webcam is in the Austrian Alps and is not located at the latitude/longitude supplied to the environmental collector."
@@ -513,13 +513,13 @@
   },
   "observations_for_gemini": {
     "weather": {
-      "time": "2026-09-19T16:00",
-      "temperature_c": 18.0,
-      "precipitation_mm": 0.5,
+      "time": "2026-09-19T18:00",
+      "temperature_c": 17.4,
+      "precipitation_mm": 0.6,
       "rain_mm": 0.0,
       "snowfall_cm": 0.0,
-      "wind_speed_kmh": 0.6,
-      "wind_gusts_kmh": 23.0
+      "wind_speed_kmh": 0.0,
+      "wind_gusts_kmh": 17.6
     },
     "seismic": {
       "event_count": 0,
@@ -538,9 +538,9 @@
         "elevation_m": 3245,
         "direction_degrees": 270
       },
-      "downloaded_at": "2026-09-19T16:00:23.464625Z",
-      "http_last_modified": "Sat, 19 Sep 2026 16:00:01 GMT",
-      "latest_image_path": "images/hintereisferner1_latest.jpg",
+      "downloaded_at": "2026-09-19T18:10:02.883596Z",
+      "http_last_modified": "Sat, 19 Sep 2026 18:00:27 GMT",
+      "latest_image_path": "backend/data_collector/images/hintereisferner1_latest.jpg",
       "image_url": "https://www.foto-webcam.eu/webcam/hintereisferner1/current/720.jpg",
       "attribution": "www.foto-webcam.eu",
       "important_note": "This webcam is in the Austrian Alps and is not located at the latitude/longitude supplied to the environmental collector."

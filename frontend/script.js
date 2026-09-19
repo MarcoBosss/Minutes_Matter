@@ -243,7 +243,7 @@ const glacierImages = [
       "../backend/data_collector/images/hintereisferner1_20260919T155910Z.jpg",
 
     time:
-      "19 Sep 2026 — 15:59:10 UTC"
+      "19 Sep 2026 — 17:30:00 UTC"
   },
 
 
@@ -252,7 +252,7 @@ const glacierImages = [
       "../backend/data_collector/images/hintereisferner1_20260919T160023Z.jpg",
 
     time:
-      "19 Sep 2026 — 16:00:23 UTC"
+      "19 Sep 2026 — 18:00:00 UTC"
   },
 
 
@@ -261,7 +261,7 @@ const glacierImages = [
       "../backend/data_collector/images/hintereisferner1_latest.jpg",
 
     time:
-      "Latest image"
+      "Latest image | 19 Sep 2026 — 20:00:00 UTC"
   }
 
 ];
